@@ -1,0 +1,10 @@
+.page { max-width: 760px; margin: 0 auto; padding: 24px 16px; }
+.form { display: grid; gap: 8px; padding: 16px; border: 1px solid #999; border-radius: 8px; margin-bottom: 24px; }
+.form input, .form textarea, .form select { padding: 8px; font: inherit; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.active { font-weight: 700; text-decoration: underline; }
+.list { list-style: none; padding: 0; display: grid; gap: 12px; }
+.item { border: 1px solid #999; border-radius: 8px; padding: 12px; }
+.badge { font-size: 12px; padding: 2px 8px; border: 1px solid currentColor; border-radius: 999px; }
+.actions { display: flex; gap: 8px; margin-top: 8px; }
+.error { color: #d33; }
